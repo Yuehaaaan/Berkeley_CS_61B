@@ -1,0 +1,2 @@
+(a,b) 狗可以assign给animal, animal得cast给狗。
+(c) xa指向X[]的话就算cast之后，run-time时ya还会报错，因为狗指向了动物。如果xa指向Y[]的话没问题。

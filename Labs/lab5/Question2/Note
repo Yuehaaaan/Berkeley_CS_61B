@@ -1,0 +1,5 @@
+Note:
+
+(a) Will compile. 因为interface中的method必须implement,所以不论看做implement还是override,结果输出均为22.
+(b) Will NOT compile. 因为如果看做implement,要return int, 看做override，要return void,矛盾，不compile.
+(c，d) Will compile. 因为method名字相同但parameter不同的话依然可以被区分。在subclass中可根据parameter判断是override还是implement.
